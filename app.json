@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "calc-app",
+    "name": "Calc Consórcio",
     "slug": "calc-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,22 +9,26 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1C1B1E"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1C1B1E"
+      },
+      "package": "com.matheusvespasiano.calcapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4a12535c-ff54-4986-9819-aacef0626b9f"
+      }
     }
   }
 }
